@@ -1,1 +1,0 @@
-# septayudaa.github.io
