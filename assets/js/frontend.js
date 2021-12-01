@@ -25,35 +25,38 @@ var database_language = [
     [ 'dashboard',
       [
         'def', {
-          'carousel'      : 'A man who love code and photoshop.',
-          'aboutme_judul' : 'A Little About Me',
-          'aboutme_isi'   : '&emsp;&ensp;&nbsp;Saya adalah seorang pelajar berumur 18 tahun jurusan Sistem Informatika Jaringan dan Informasi di SMKN 1 Cimahi yang berspesialis pada bidang Programming. Saya senang mengedit photo dan image menggunakan software photoshop, bisa mengoperasikan microsoft office (word, excel, power point, visio), pernah belajar tentang 3d grafik, dan juga memahami cara memperbaiki sebagian besar general problem yang sering terjadi pada windows.',
-          'code_judul'    : 'Love to Code!',
-          'code_isi'      : 'Waktu terasa cepat berlalu ketika saya melakukan coding. Saya juga senang ketika membuat algoritma, perasaan saat menyelesaikan algoritma yang sulit adalah perasaan yang terbaik.',
+          'bahasa'          : 'Language :&nbsp;',
+          'carousel'        : 'A man who love code and photoshop.',
+          'aboutme_judul'   : 'A Little About Me',
+          'aboutme_isi'     : '&emsp;&ensp;&nbsp;Saya adalah seorang pelajar berumur 18 tahun jurusan Sistem Informatika Jaringan dan Informasi di SMKN 1 Cimahi yang berspesialis pada bidang Programming. Saya senang mengedit photo dan image menggunakan software photoshop, bisa mengoperasikan microsoft office (word, excel, power point, visio), pernah belajar tentang 3d grafik, dan juga memahami cara memperbaiki sebagian besar general problem yang sering terjadi pada windows.',
+          'code_judul'      : 'Love to Code!',
+          'code_isi'        : 'Waktu terasa cepat berlalu ketika saya melakukan coding. Saya juga senang ketika membuat algoritma, perasaan saat menyelesaikan algoritma yang sulit adalah perasaan yang terbaik.',
           'photoshop_judul' : 'Sometimes do photoshop too!',
-          'photoshop_isi' : 'Ketika saya mempunyai waktu luang dan sedang ada inspirasi, saya kadang melakukan editing photo atau manipulasi image.'
+          'photoshop_isi'   : 'Ketika saya mempunyai waktu luang dan sedang ada inspirasi, saya kadang melakukan editing photo atau manipulasi image.'
         }
       ],
       [
         'id', {
-          'carousel'      : 'Seseorang yang menyukai coding dan photoshop.',
-          'aboutme_judul' : 'Sedikit Tentang Saya',
-          'aboutme_isi'   : '&emsp;&ensp;&nbsp;Saya adalah seorang pelajar berumur 18 tahun jurusan Sistem Informatika Jaringan dan Informasi di SMKN 1 Cimahi yang berspesialis pada bidang Programming. Saya senang mengedit photo dan image menggunakan software photoshop, bisa mengoperasikan microsoft office (word, excel, power point, visio), pernah belajar tentang 3d grafik, dan juga memahami cara memperbaiki sebagian besar masalah umum yang sering terjadi pada windows.',
-          'code_judul'    : 'Menyukai Coding!',
-          'code_isi'      : 'Waktu terasa cepat berlalu ketika saya melakukan coding. Saya juga senang ketika membuat algoritma, perasaan saat menyelesaikan algoritma yang sulit adalah perasaan yang terbaik.',
+          'bahasa'          : 'Bahasa :&nbsp;',
+          'carousel'        : 'Seseorang yang menyukai coding dan photoshop.',
+          'aboutme_judul'   : 'Sedikit Tentang Saya',
+          'aboutme_isi'     : '&emsp;&ensp;&nbsp;Saya adalah seorang pelajar berumur 18 tahun jurusan Sistem Informatika Jaringan dan Informasi di SMKN 1 Cimahi yang berspesialis pada bidang Programming. Saya senang mengedit photo dan image menggunakan software photoshop, bisa mengoperasikan microsoft office (word, excel, power point, visio), pernah belajar tentang 3d grafik, dan juga memahami cara memperbaiki sebagian besar masalah umum yang sering terjadi pada windows.',
+          'code_judul'      : 'Menyukai Coding!',
+          'code_isi'        : 'Waktu terasa cepat berlalu ketika saya melakukan coding. Saya juga senang ketika membuat algoritma, perasaan saat menyelesaikan algoritma yang sulit adalah perasaan yang terbaik.',
           'photoshop_judul' : 'Kadang mengedit photo juga!',
-          'photoshop_isi' : 'Ketika saya mempunyai waktu luang dan sedang ada inspirasi, saya kadang melakukan editing photo atau manipulasi image.'
+          'photoshop_isi'   : 'Ketika saya mempunyai waktu luang dan sedang ada inspirasi, saya kadang melakukan editing photo atau manipulasi image.'
         }
       ],
       [
         'eng', {
-          'carousel'      : 'A man who love code and photoshop.',
-          'aboutme_judul' : 'A Little About Me',
-          'aboutme_isi'   : '&emsp;&ensp;&nbsp;I am an 18 year old student majoring in Information and Network Information Systems at SMKN 1 Cimahi who specializes in programming. I enjoy editing photos and images using Photoshop software, can operate Microsoft Office (word, excel, power point, visio), have learned about 3d graphics, and also understand how to fix most of the general problems that often occur on windows.',
-          'code_judul'    : 'Love to Code!',
-          'code_isi'      : 'Time flies fast when Im coding. I also enjoy creating algorithms, the feeling of solving difficult algorithms is the best feeling.',
+          'bahasa'          : 'Language :&nbsp;',
+          'carousel'        : 'A man who love code and photoshop.',
+          'aboutme_judul'   : 'A Little About Me',
+          'aboutme_isi'     : '&emsp;&ensp;&nbsp;I am an 18 year old student majoring in Information and Network Information Systems at SMKN 1 Cimahi who specializes in programming. I enjoy editing photos and images using Photoshop software, can operate Microsoft Office (word, excel, power point, visio), have learned about 3d graphics, and also understand how to fix most of the general problems that often occur on windows.',
+          'code_judul'      : 'Love to Code!',
+          'code_isi'        : 'Time flies fast when Im coding. I also enjoy creating algorithms, the feeling of solving difficult algorithms is the best feeling.',
           'photoshop_judul' : 'Sometimes do photoshop too!',
-          'photoshop_isi' : 'When I have free time and Im inspired, I sometimes do photo editing or image manipulation.'
+          'photoshop_isi'   : 'When I have free time and Im inspired, I sometimes do photo editing or image manipulation.'
         }
       ]
     ],
