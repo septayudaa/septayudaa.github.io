@@ -1,0 +1,122 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+p{
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+/*=================*/
+/*language select*/
+/*=================*/
+.language dd, .language dt, .language ul {
+    margin:0px;
+    padding:0px;
+}
+
+.language dd {
+    position:relative;
+}
+
+.language a, .language a:visited {
+    /*all text color*/
+    color: #6b6b6b;
+    font-weight: normal;
+    text-decoration:none;
+    outline:none;
+    font-size: 13px;
+}
+
+.language a:hover {
+    /*text language color hover*/
+    color: black;
+}
+
+.language dt a:hover {
+    /*text selected color hover*/
+    color: #595959;
+    /*border selected color hover*/
+    border: 1px solid #dbdbdb;
+}
+
+.language dt a {
+    /*background selected color*/
+    background:#ffffff url('assets/img/arrow.png') no-repeat scroll right center;
+    display:block;
+    padding-right:20px;
+    border:1px solid #d0c9af;
+    width:150px;
+}
+
+.language dt a span {
+    cursor:pointer;
+    display:block;
+    padding:5px;
+}
+
+.language dd ul {
+    /*background language color*/
+    background:#ffffff none repeat scroll 0 0;
+    border:1px solid #d0c9af;
+    color:#C5C0B0;
+    display:none;
+    left:0px;
+    padding:5px 0px;
+    position:absolute;
+    top:2px;
+    width:auto;
+    min-width:170px;
+    list-style:none;
+}
+
+.language span.value {
+    display:none;
+}
+
+.language dd ul li a {
+    padding:5px;
+    display:block;
+}
+
+.language dd ul li a:hover {
+    /*hover language color*/
+    background-color:#dbdbdb;
+}
+
+.language img.flag {
+    border:none;
+    vertical-align:middle;
+    margin-left:8px;
+    width: 20px;
+}
+
+.flagvisibility {
+    display:none;
+}
