@@ -66,7 +66,87 @@ var database_language = [
       }
     ]
   ],
-  ['input3', 'input4']
+  ['about_me',
+    [
+      'def', {
+        'bahasa': 'Language :&nbsp;',
+        'title': 'About Me',
+
+        // pendidikan
+        'title_pendidikan': 'Pendidikan',
+        'sub_pendidikan_title_1': 'Sekolah Dasar',
+        'sub_pendidikan_isi_1': 'SDN Cibabat Mandiri 2 | 2009 - 2015',
+        'sub_pendidikan_title_2': 'Sekolah Menengah Pertama',
+        'sub_pendidikan_isi_2': 'SMPN 6 Cimahi | 2015 - 2018',
+        'sub_pendidikan_title_3': 'Sekolah Menengah Kejuruan',
+        'sub_pendidikan_isi_3': 'SMKN 1 Cimahi | 2018 - 2022',
+
+        // kemampuan
+        'title_kemampuan': 'Kemampuan',
+        'sub_kemampuan_title_1': 'Bahasa Pemrograman',
+        'sub_kemampuan_isi_1': 'PHP, CSS, C++, C#, Python, Java, javascript, Typescript, Golang',
+        'sub_kemampuan_title_2': 'Database',
+        'sub_kemampuan_isi_2': 'MySQL, PostgreSQL',
+        'sub_kemampuan_title_3': 'Microsoft Office',
+        'sub_kemampuan_isi_3': 'Word, Power Point, Excel, Visio',
+        'sub_kemampuan_title_4': 'Design Software',
+        'sub_kemampuan_isi_4': 'CorelDraw, Photoshop, Primere Pro',
+
+      }
+    ],
+    [
+      'id', {
+        'bahasa': 'Bahasa :&nbsp;',
+        'title': 'Tentang Saya',
+
+        // pendidikan
+        'title_pendidikan': 'Pendidikan',
+        'sub_pendidikan_title_1': 'Sekolah Dasar',
+        'sub_pendidikan_isi_1': 'SDN Cibabat Mandiri 2 | 2009 - 2015',
+        'sub_pendidikan_title_2': 'Sekolah Menengah Pertama',
+        'sub_pendidikan_isi_2': 'SMPN 6 Cimahi | 2015 - 2018',
+        'sub_pendidikan_title_3': 'Sekolah Menengah Kejuruan',
+        'sub_pendidikan_isi_3': 'SMKN 1 Cimahi | 2018 - 2022',
+
+        // kemampuan
+        'title_kemampuan': 'Kemampuan',
+        'sub_kemampuan_title_1': 'Bahasa Pemrograman',
+        'sub_kemampuan_isi_1': 'PHP, CSS, C++, C#, Python, Java, javascript, Typescript, Golang',
+        'sub_kemampuan_title_2': 'Basis Data',
+        'sub_kemampuan_isi_2': 'MySQL, PostgreSQL',
+        'sub_kemampuan_title_3': 'Microsoft Office',
+        'sub_kemampuan_isi_3': 'Word, Power Point, Excel, Visio',
+        'sub_kemampuan_title_4': 'Aplikasi Desain',
+        'sub_kemampuan_isi_4': 'CorelDraw, Photoshop, Primere Pro',
+      }
+    ],
+    [
+      'eng', {
+        'bahasa': 'Language :&nbsp;',
+        'title': 'About Me',
+
+        // pendidikan
+        'title_pendidikan': 'Education',
+        'sub_pendidikan_title_1': 'Elementary school',
+        'sub_pendidikan_isi_1': 'SDN Cibabat Mandiri 2 | 2009 - 2015',
+        'sub_pendidikan_title_2': 'Junior high school',
+        'sub_pendidikan_isi_2': 'SMPN 6 Cimahi | 2015 - 2018',
+        'sub_pendidikan_title_3': 'Vocational High School',
+        'sub_pendidikan_isi_3': 'SMKN 1 Cimahi | 2018 - 2022',
+
+        // kemampuan
+        'title_kemampuan': 'Ability',
+        'sub_kemampuan_title_1': 'Programming language',
+        'sub_kemampuan_isi_1': 'PHP, CSS, C++, C#, Python, Java, javascript, Typescript, Golang',
+        'sub_kemampuan_title_2': 'Database',
+        'sub_kemampuan_isi_2': 'MySQL, PostgreSQL',
+        'sub_kemampuan_title_3': 'Microsoft Office',
+        'sub_kemampuan_isi_3': 'Word, Power Point, Excel, Visio',
+        'sub_kemampuan_title_4': 'Design Software',
+        'sub_kemampuan_isi_4': 'CorelDraw, Photoshop, Primere Pro',
+      }
+    ]
+  ]
 ];
 
 $(".language img.flag").addClass("flagvisibility");
