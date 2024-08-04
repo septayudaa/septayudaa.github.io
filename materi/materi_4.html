@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Ragan Septayuda Lesmana</title>
+
+  <!-- Bootstrap -->
+  <link href="../vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="../style.css">
+
+  <!-- ICON -->
+  <link rel="icon" type="image/png" href="../assets/img/logo.png" />
+  <script src="../assets/js/jquery.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white shadow-sm" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Ragan Septayuda Lesmana</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <!-- language -->
+            <!-- <li class="nav-item mx-3 my-auto">
+              <div class="nav-link py-0">
+                <form class="d-flex">
+                  <input type="hidden" id="page" value="dashboard">
+                  <a class="my-auto" style="color: #6b6b6b; text-decoration: none;" id="bahasa">Language :&nbsp;</a>
+                  <dl id="select_language" class="language my-auto" style="padding-top: 2px;">
+                    <dt><a href="#"><span>Default<img class="flag" src="assets/img/indo_eng.png" alt="" /></span></a>
+                    </dt>
+                    <dd>
+                      <ul>
+                        <li><a href="#">Default<img class="flag" src="assets/img/indo_eng.png" alt="" /><span
+                              class="value">def</span></a></li>
+                        <li><a href="#">Indonesia<img class="flag" src="assets/img/indonesia.png" alt="" /><span
+                              class="value">id</span></a></li>
+                        <li><a href="#">English<img class="flag" src="assets/img/eng.png" alt="" /><span
+                              class="value">eng</span></a></li>
+
+                      </ul>
+                    </dd>
+                  </dl>
+                </form>
+              </div>
+            </li> -->
+
+            <!-- menu -->
+            <audio controls autoplay>
+              <source src="../assets/media/iofi.mp3" type="audio/ogg">
+            </audio>
+            <li class="nav-item dropdown mx-3 my-auto">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Materi
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="materi_1.html">HTML</a></li>
+                <li><a class="dropdown-item" href="materi_2.html">Tag, Elemen, dan Atribut</a></li>
+                <li><a class="dropdown-item" href="materi_3.html">Paragraf</a></li>
+                <li><a class="dropdown-item" href="materi_4.html">Heading, Komentar, dan Text Formatting</a></li>
+                <li><a class="dropdown-item" href="materi_5.html">Link</a></li>
+                <!-- <li><a class="dropdown-item" href="materi_6.html">Gambar dan Tabel</a></li>
+                <li><a class="dropdown-item" href="materi_7.html">List</a></li>
+                <li><a class="dropdown-item" href="materi_8.html">Form</a></li>
+                <li><a class="dropdown-item" href="materi_9.html">Elemen Semantik</a></li>
+                <li><a class="dropdown-item" href="materi_10.html">Video</a></li>
+                <li><a class="dropdown-item" href="materi_11.html">Audio</a></li>
+                <li><a class="dropdown-item" href="materi_12.html">CSS</a></li> -->
+              </ul>
+            </li>
+            <li class="nav-item mx-3 my-auto">
+              <a class="nav-link" aria-current="page" href="../about.html">About Me</a>
+            </li>
+            <li class="nav-item mx-3 my-auto">
+              <a class="nav-link" aria-current="page" href="../project.html">Project</a>
+            </li>
+            <li class="nav-item ms-3 my-auto">
+              <a class="nav-link" href="../contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ISI WEB -->
+  <main id="top">
+
+    <!-- PEMBUKAAN -->
+    <section class="pt-5 container" id="top">
+      <div class="row pt-lg-5">
+        <div class="col-lg-12 col-md-8 mx-auto">
+          <h1 class="fw-light text-center"><mark id="aboutme_judul"><strong>Heading, Komentar, dan Text Formatting di HTML</strong></mark></h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-5 container" id="top">
+      <div class="row py-lg-5">
+        <div class="col-lg-12 col-md-8 mx-auto">
+          <h1 class="fw-light"><mark id="aboutme_judul"><strong>Heading</strong></mark></h1>
+          <p class="lead text-muted" id="aboutme_isi">&emsp;&ensp;&nbsp;
+            Heading adalah sebuah judul yang biasanya diberikan pada halaman atau beberapa bagian
+            dari artikel.Jika kamu sering menulis artikel, pasti ini tidak asing buatmu. 
+            Judul pada HTML dapat kita buat dengan tag &lt;h1&gt; sampai &lt;h6&gt;. Tag &lt;h1&gt; digunakan pada
+            judul level pertama. Lalu tag lainnya digunakan pada sub heading atau level berikutnya.
+            Masing-masing judul akan ditampilkan dengan ukuran teks yang bebeda. Tag &lt;h1&gt; adalah
+            yang paling besar, dan tag &lt;h6&gt; paling kecil.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-5 container" id="top">
+      <div class="row py-lg-5">
+        <div class="col-lg-12 col-md-8 mx-auto">
+          <h1 class="fw-light"><mark id="aboutme_judul"><strong>Komentar</strong></mark></h1>
+          <p class="lead text-muted" id="aboutme_isi">&emsp;&ensp;&nbsp;
+            Komentar adalah elemen yang akan diabaikan oleh browser. Ia tidak akan ditampilkan di dalam
+            web. Komentar biasanya digunakan untuk memberikan informasi tambahan pada kode HTML
+            dan kadang juga digunakan untuk menon-aktifkan beberapa kode HTML. Komentar dapat kita buat dengan tag &lt;!-- --&gt;.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-5 container" id="top">
+      <div class="row py-lg-5">
+        <div class="col-lg-12 col-md-8 mx-auto">
+          <h1 class="fw-light"><mark id="aboutme_judul"><strong>Text Formatting </strong></mark></h1>
+          <p class="lead text-muted" id="aboutme_isi">&emsp;&ensp;&nbsp;
+            Text Formating adalah text text yang diberikan format tertentu untuk berbagai tujuan seperti agar text mudah dibaca, judul lebih terlihat ataupun menyesuaikan ukuran dan warna pada text. Contoh Text Formatting : 
+          </p>
+          <table class="table" style="width: 500px; max-width: 500px;">
+            <thead>
+              <tr>
+                <th style="width: 200px; max-width: 200px;">Jenis Text Formatting</th>
+                <th>Fungsi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&lt;b&gt;</td>
+                <td>Bold text</td>
+              </tr>
+              
+              <tr>
+                <td>&lt;strong&gt;</td>
+                <td>Important text</td>
+              </tr>
+              <tr>
+                <td>&lt;i&gt;</td>
+                <td>Italic text</td>
+              </tr>
+              <tr>
+                <td>&lt;em&gt;</td>
+                <td>Emphasized text</td>
+              </tr>
+              <tr>
+                <td>&lt;mark&gt;</td>
+                <td>Marked text</td>
+              </tr>
+              <tr>
+                <td>&lt;small&gt;</td>
+                <td>Smaller text</td>
+              </tr>
+              <tr>
+                <td>&lt;del&gt;</td>
+                <td>Deleted text</td>
+              </tr>
+              <tr>
+                <td>&lt;ins&gt;</td>
+                <td>Inserted text</td>
+              </tr>
+              <tr>
+                <td>&lt;sub&gt;</td>
+                <td>Subscript text</td>
+              </tr>
+              <tr>
+                <td>&lt;sup&gt;</td>
+                <td>Superscript text</td>
+              </tr>
+  
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <div class="d-lg-none">
+      <br>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="text-muted py-3">
+    <div class="container">
+      <p class="float-end mb-1 d-none d-md-block">
+        <a href="#top" style="color: #6b6b6b; text-decoration: none;">Back to top</a>
+      </p>
+      <!-- <p class="mb-1">by Ragan Septayuda Lesmana with Bootstrap 5 &copy;2021</p> -->
+      <p class="mb-1">by Ragan Septayuda Lesmana with Bootstrap 5 &copy;2024</p>
+    </div>
+  </footer>
+
+  <script src="../vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- MY JS -->
+  <script src="../assets/js/frontend.js"></script>
+
+</body>
+
+</html>

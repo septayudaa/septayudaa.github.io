@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Ragan Septayuda Lesmana</title>
+
+  <!-- Bootstrap -->
+  <link href="../vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="../style.css">
+
+  <!-- ICON -->
+  <link rel="icon" type="image/png" href="../assets/img/logo.png" />
+  <script src="../assets/js/jquery.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white shadow-sm" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Ragan Septayuda Lesmana</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <!-- language -->
+            <!-- <li class="nav-item mx-3 my-auto">
+              <div class="nav-link py-0">
+                <form class="d-flex">
+                  <input type="hidden" id="page" value="dashboard">
+                  <a class="my-auto" style="color: #6b6b6b; text-decoration: none;" id="bahasa">Language :&nbsp;</a>
+                  <dl id="select_language" class="language my-auto" style="padding-top: 2px;">
+                    <dt><a href="#"><span>Default<img class="flag" src="assets/img/indo_eng.png" alt="" /></span></a>
+                    </dt>
+                    <dd>
+                      <ul>
+                        <li><a href="#">Default<img class="flag" src="assets/img/indo_eng.png" alt="" /><span
+                              class="value">def</span></a></li>
+                        <li><a href="#">Indonesia<img class="flag" src="assets/img/indonesia.png" alt="" /><span
+                              class="value">id</span></a></li>
+                        <li><a href="#">English<img class="flag" src="assets/img/eng.png" alt="" /><span
+                              class="value">eng</span></a></li>
+
+                      </ul>
+                    </dd>
+                  </dl>
+                </form>
+              </div>
+            </li> -->
+
+            <!-- menu -->
+            <audio controls autoplay>
+              <source src="../assets/media/iofi.mp3" type="audio/ogg">
+            </audio>
+            <li class="nav-item dropdown mx-3 my-auto">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Materi
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="materi_1.html">HTML</a></li>
+                <li><a class="dropdown-item" href="materi_2.html">Tag, Elemen, dan Atribut</a></li>
+                <li><a class="dropdown-item" href="materi_3.html">Paragraf</a></li>
+                <li><a class="dropdown-item" href="materi_4.html">Heading, Komentar, dan Text Formatting</a></li>
+                <li><a class="dropdown-item" href="materi_5.html">Link</a></li>
+                <!-- <li><a class="dropdown-item" href="materi_6.html">Gambar dan Tabel</a></li>
+                <li><a class="dropdown-item" href="materi_7.html">List</a></li>
+                <li><a class="dropdown-item" href="materi_8.html">Form</a></li>
+                <li><a class="dropdown-item" href="materi_9.html">Elemen Semantik</a></li>
+                <li><a class="dropdown-item" href="materi_10.html">Video</a></li>
+                <li><a class="dropdown-item" href="materi_11.html">Audio</a></li>
+                <li><a class="dropdown-item" href="materi_12.html">CSS</a></li> -->
+              </ul>
+            </li>
+            <li class="nav-item mx-3 my-auto">
+              <a class="nav-link" aria-current="page" href="../about.html">About Me</a>
+            </li>
+            <li class="nav-item mx-3 my-auto">
+              <a class="nav-link" aria-current="page" href="../project.html">Project</a>
+            </li>
+            <li class="nav-item ms-3 my-auto">
+              <a class="nav-link" href="../contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ISI WEB -->
+  <main id="top">
+
+    <!-- PEMBUKAAN -->
+    <section class="pt-5 container" id="top">
+      <div class="row py-lg-5">
+        <div class="col-lg-12 col-md-8 mx-auto">
+          <h1 class="fw-light text-center"><mark id="aboutme_judul"><strong>Pengenalan Dasar HTML untuk Pemula</strong></mark></h1>
+          <video style="display: block; margin-left: auto; margin-right: auto; width: 50%;" width="500px" height="400px" controls="controls">
+            <source src= "../assets/media/html.mp4" type="video/mp4" />
+          </video>
+          <p class="lead text-muted" id="aboutme_isi">&emsp;&ensp;&nbsp;Mari kita lihat pengertian HTML menurut wikipedia: "HTML atau HyperText Markup Language merupakan sebuah bahasa markah untuk
+            membuat halaman web." Jadi, HTML itu adalah sebuah bahasa yang menggunakan markup atau penanda
+            untuk membuat halaman web. Penanda atau markup ini, nanti akan kita sebut
+            dengan Tag. HTML berperan untuk menentukan struktur konten dan tampilan dari
+            sebuah web. HTML itu seperti batu bata untuk membangun rumah. Batu bata ini dapat
+            disusun, hingga menjadi fondasi dasar.
+          </p>
+            <p class="lead text-muted" id="aboutme_isi">&emsp;&ensp;&nbsp;Dalam membuat halaman web, HTML tidak sendirian. Ada bahasa lain lagi yang menjadi
+              pelengkapnya, yakni CSS dan Javascript. CSS adalah bahasa khusus yang digunakan
+              untuk memperindah tampilan web. Lalu Javascript bertugas untuk membuat halaman web
+              menjadi hidup. Karena dengan Javascript, kita dapat menentukan fungsi-fungsi maupun
+              efek yang akan diterapkan di website. Kita akan fokus dulu membahas HTML.
+            </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-5 container" id="top">
+      <div class="row py-lg-5">
+        <div class="col-lg-12 col-md-8 mx-auto">
+          <h1 class="fw-light"><mark id="aboutme_judul"><strong>Sejarah dan Asal-usul HTML</strong></mark></h1>
+          <p class="lead text-muted" id="aboutme_isi">&emsp;&ensp;&nbsp;
+            Cerita awal kemunculan HTML dimulai dari tahun 1980. Saat itu seorang ilmuan bernama Tim Berners-Lee sedang bekerja di CERN.
+            CERN sendiri bukanlah perusahaan yang berkaitan tentang teknologi maupun internet. 
+            CERN adalah singkatan dari bahasa prancis: Conseil Européen pour la Recherche Nucléaire. Yang artinya: Komisi Eropa untuk Penelitian Fisika Nuklir. Para
+            peneliti di CERN membutuhkan sebuah cara atau sistem agar bisa saling berbagi
+            dokumen hasil penelitian. Tim kemudian mencoba membuat ENQUIRE. Ini adalah
+            software hypertext yang akan digunakan untuk berbagi dokumen. Lalu di tahun 1989, Tim memperkenalkan ide tentang hypertext berbasis internet. Ini nantinya akan menjadi
+            cikal-bakal HTML.
+          </p>
+          <p class="lead text-muted" id="aboutme_isi">&emsp;&ensp;&nbsp;
+            HTML punya beberapa versi, dari versi yang paling tua hingga yang terbaru. Berikut ini perkembangan versi HTML:
+          </p>
+          <ul>
+            <li>
+              <p class="lead text-muted" id="aboutme_isi">
+                &emsp;[Draft] HTML 1.0 (Juni 1993) adalah versi HTML pertama, namun tidak resmi dirilis
+              </p>
+            </li>
+            <li>
+              <p class="lead text-muted" id="aboutme_isi">
+                &emsp;HTML 2.0 (24 November 1995) adalah versi HTML kedua yang resmi pertamakali
+                beredar di pasaran dan dirilis oleh IETF;
+              </p>
+            </li>
+            <li>
+              <p class="lead text-muted" id="aboutme_isi">
+                &emsp;[Draft] HTML 3.0 (28 Maret 1995) versi ini gagal beredar, karena banyak perubahan
+                yang memicu perdebatan;
+              </p>
+            </li>
+            <li>
+              <p class="lead text-muted" id="aboutme_isi">
+                &emsp;HTML 3.2 (14 Januari 1997) versi resmi yang dirilis W3C pertamakali.
+              </p>
+            </li>
+            <li>
+              <p class="lead text-muted" id="aboutme_isi">
+                &emsp;HTML 4.0 (24 April 1998) versi pengembangan dari yang seblumnya
+              </p>
+            </li>
+            <li>
+              <p class="lead text-muted" id="aboutme_isi">
+                &emsp;HTML 4.01 (24 Desember 1999) versi perbaikan dari HTML 4.0
+              </p>
+            </li>
+            <li>
+              <p class="lead text-muted" id="aboutme_isi">
+                &emsp;XHTML 1.0 (26 Januari 2000) pengembangan dari HTML 4.01 dengan mengadopsi
+                XML
+              </p>
+            </li>
+            <li>
+              <p class="lead text-muted" id="aboutme_isi">
+                &emsp;XHTML 2.0 (Augustus 2002—Juli 2006) versi kedua dari XHTML
+              </p>
+            </li>
+            <li>
+              <p class="lead text-muted" id="aboutme_isi">
+                &emsp;HTML 5 (28 Oktober 2014) versi html saat ini.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-5 container" id="top">
+      <div class="row py-lg-5">
+        <div class="col-lg-12 col-md-8 mx-auto">
+          <h1 class="fw-light"><mark id="aboutme_judul"><strong>Struktur Dasar HTML</strong></mark></h1>
+          <p class="lead text-muted" id="aboutme_isi">&emsp;&ensp;&nbsp;
+            Penulisan kode HTML selalu dimulai dengan deklarasi DOCTYPE, lalau menuliskan
+            tag &lt;html&gt; dan di dalamnya terdapat tag &lt;head&gt; dan &lt;body&gt;.
+            Kalau kita perhatikan.. struktur dasar kode HTML terdiri dari tiga bagian penting:
+          </p>
+          <ul>
+            <li><p class="lead text-muted" id="aboutme_isi">&emsp;Bagian Deklarasi</p></li>
+            <li><p class="lead text-muted" id="aboutme_isi">&emsp;Bagian HEAD</p></li>
+            <li><p class="lead text-muted" id="aboutme_isi">&emsp;Bagian BODY</p></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="d-lg-none">
+      <br>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="text-muted py-3">
+    <div class="container">
+      <p class="float-end mb-1 d-none d-md-block">
+        <a href="#top" style="color: #6b6b6b; text-decoration: none;">Back to top</a>
+      </p>
+      <!-- <p class="mb-1">by Ragan Septayuda Lesmana with Bootstrap 5 &copy;2021</p> -->
+      <p class="mb-1">by Ragan Septayuda Lesmana with Bootstrap 5 &copy;2024</p>
+    </div>
+  </footer>
+
+  <script src="../vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- MY JS -->
+  <script src="../assets/js/frontend.js"></script>
+
+</body>
+
+</html>

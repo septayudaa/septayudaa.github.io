@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Ragan Septayuda Lesmana</title>
+
+  <!-- Bootstrap -->
+  <link href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ICON -->
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
+  <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white shadow-sm" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Ragan Septayuda Lesmana</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <!-- language -->
+            <li class="nav-item mx-3 my-auto">
+              <div class="nav-link py-0">
+                <form class="d-flex">
+                  <input type="hidden" id="page" value="dashboard">
+                  <a class="my-auto" style="color: #6b6b6b; text-decoration: none;" id="bahasa">Language :&nbsp;</a>
+                  <dl id="select_language" class="language my-auto" style="padding-top: 2px;">
+                    <dt><a href="#"><span>Default<img class="flag" src="assets/img/indo_eng.png" alt="" /></span></a>
+                    </dt>
+                    <dd>
+                      <ul>
+                        <li><a href="#">Default<img class="flag" src="assets/img/indo_eng.png" alt="" /><span
+                              class="value">def</span></a></li>
+                        <li><a href="#">Indonesia<img class="flag" src="assets/img/indonesia.png" alt="" /><span
+                              class="value">id</span></a></li>
+                        <li><a href="#">English<img class="flag" src="assets/img/eng.png" alt="" /><span
+                              class="value">eng</span></a></li>
+
+                      </ul>
+                    </dd>
+                  </dl>
+                </form>
+              </div>
+            </li>
+
+            <!-- menu -->
+            <li class="nav-item mx-3 my-auto">
+              <a class="nav-link" aria-current="page" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item mx-3 my-auto">
+              <a class="nav-link" aria-current="page" href="project.html">Project</a>
+            </li>
+            <!-- under progres -->
+            <!-- <li class="nav-item dropdown mx-3 my-auto">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Project
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item ms-3 my-auto">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ISI WEB -->
+  <main id="top">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="assets/img/logo.png">
+          <div class="carousel-caption d-none d-md-block">
+            <span id="carousel">A man who love code and photoshop.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PEMBUKAAN -->
+    <section class="py-5 container" id="top">
+      <div class="row py-lg-5">
+        <div class="col-lg-12 col-md-8 mx-auto">
+          <h1 class="fw-light"><mark id="aboutme_judul"><strong>A Little About Me</strong></mark></h1>
+          <p class="lead text-muted" id="aboutme_isi">&emsp;&ensp;&nbsp;Saya adalah seorang lelaki kelahiran tahun 2003
+            berasal dari Kota Cimahi, Indonesia yang berspesialis pada bidang Programming. Saya senang mengedit photo
+            dan image menggunakan software photoshop, bisa mengoperasikan microsoft office (word, excel, power point,
+            visio), pernah belajar tentang 3d grafik, dan juga memahami cara memperbaiki sebagian besar problem yang
+            sering terjadi pada windows.</p>
+        </div>
+      </div>
+    </section>
+    <div class="d-lg-none">
+      <br>
+    </div>
+
+    <section class="py-5 container" id="top">
+      <div class="row py-lg-5">
+        <div class="col-lg-3 col-md-5 col-7 mx-auto my-auto">
+          <img src="assets/img/code.png" style="width:100%;" alt="assets/img/logo.png">
+        </div>
+        <div class="d-lg-none">
+          <br>
+        </div>
+        <div class="col-lg-6 col-md-8 my-auto">
+          <h1 class="fw-light"><mark id="code_judul"><strong>Love to Code!</strong></mark></h1>
+          <p class="lead text-muted" id="code_isi">Waktu terasa cepat berlalu ketika saya melakukan coding. Saya juga
+            senang ketika membuat algoritma, perasaan saat menyelesaikan algoritma yang sulit adalah perasaan yang
+            terbaik.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 container" id="top">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto my-auto">
+          <h1 class="fw-light"><mark id="photoshop_judul"><strong>Sometimes do photoshop too!</strong></mark></h1>
+          <p class="lead text-muted" id="photoshop_isi">Ketika saya mempunyai waktu luang dan sedang ada inspirasi, saya
+            kadang melakukan editing photo atau manipulasi image.</p>
+        </div>
+        <div class="d-lg-none">
+          <br>
+        </div>
+        <div class="col-lg-3 col-md-5 col-7 mx-auto my-auto">
+          <img src="assets/img/photoshop.png" style="width:100%;" alt="assets/img/logo.png">
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 container" id="top">
+      <div class="row py-lg-5">
+        <div class="col-lg-3 col-md-5 col-7 mx-auto my-auto">
+          <img src="assets/img/me.jpg" style="width:100%;" alt="assets/img/logo.png">
+        </div>
+        <div class="d-lg-none">
+          <br>
+        </div>
+        <div class="col-lg-6 col-md-8 my-auto">
+          <h1 class="fw-light"><mark id="saya_judul"><strong>This is me!</strong></mark></h1>
+          <p class="lead text-muted" id="saya_isi">Ini adalah salah satu foto formal yang saya miliki, saya mengambil
+            foto ini sekitar tahun 2021.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 container" id="top">
+      <div class="row py-lg-5">
+        <div class="col-lg-12 col-md-8 mx-auto">
+          <h1 class="fw-light text-center"><mark id="aboutme_judul"><strong>Data Diri (Kebutuhan Tugas)</strong></mark>
+          </h1>
+          <ul>
+            <li>
+              <p class="lead text-muted mb-0" id="skill_isi">
+                <strong>
+                  Nama : Ragan Septayuda Lesmana
+                </strong>
+              </p>
+            </li>
+            <li>
+              <p class="lead text-muted mb-0" id="skill_isi">
+                <strong>
+                  NIM : 230401010224
+                </strong>
+              </p>
+            </li>
+            <li>
+              <p class="lead text-muted mb-0" id="skill_isi">
+                <strong>
+                  Kelas : IT205
+                </strong>
+              </p>
+            </li>
+            <li>
+              <p class="lead text-muted mb-0" id="skill_isi">
+                <strong>
+                  Nama Mata Kuliah : Pemrograman Web I
+                </strong>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="d-lg-none">
+      <br>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="text-muted py-3">
+    <div class="container">
+      <p class="float-end mb-1 d-none d-md-block">
+        <a href="#top" style="color: #6b6b6b; text-decoration: none;">Back to top</a>
+      </p>
+      <!-- <p class="mb-1">by Ragan Septayuda Lesmana with Bootstrap 5 &copy;2021</p> -->
+      <p class="mb-1">by Ragan Septayuda Lesmana with Bootstrap 5 &copy;2024</p>
+    </div>
+  </footer>
+
+  <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- MY JS -->
+  <script src="assets/js/frontend.js"></script>
+
+</body>
+
+</html>
